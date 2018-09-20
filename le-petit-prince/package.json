@@ -276,11 +276,11 @@
                   "content_orientation": "0",
                   "options" : [
                     {
-                      "option_name" :"un chapeau",
+                      "option_name" :"chapeau",
                       "option_index":0
                     },
                     {
-                      "option_name" :"un boa",
+                      "option_name" :"boa",
                       "option_index":1
                     }
                   ]
