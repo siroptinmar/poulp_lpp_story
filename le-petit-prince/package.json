@@ -1,0 +1,346 @@
+{
+  "users": [
+    {
+      "user_id": "1",
+      "user_name": "martin",
+      "parcours": "",
+      "gender": "male",
+      "birthdate": "03/02/1981",
+      "account_type": "",
+      "connected": "true",
+      "last_connection": "01/01/1981",
+      "user_reading": "event_id",
+      "location_lat": "float",
+      "location_long": "float",
+      "last_comment": "event_id",
+      "last_like": "event_id",
+      "last_share": "event_id",
+      "read_speed": 1.0
+    }
+  ],
+  "gamers": [
+    {
+      "connected": "true",
+      "last_connection": "01/01/1981",
+      "user_reading": "event_id",
+      "location_lat": "float",
+      "location_long": "float",
+      "last_comment": "event_id",
+      "last_like": "event_id",
+      "last_share": "event_id"
+    }
+  ],
+  "stories": [
+    {
+      "id": 1,
+      "name": "Le petit prince",
+      "min_age": 5,
+      "genre": "fantastique",
+      "tags": "aviateur, rose, planete",
+      "url": "https://google.com",
+      "cover": "string",
+      "video": "string",
+      "description": "le voyage du petit prince",
+      "author" :"Antoine de Saint Exupéry",
+      "is_published": "true",
+      "create_at": "01/01/1981",
+      "duration": "1", ///day
+      "reading_time": "5", ///minutes
+      "team": {
+        "name": "myteam",
+        "description": "lateam qui tue",
+        "users": [
+          {
+            "id": "1",
+            "name": "martin",
+            "roles": [
+              {
+                "role": "gestionnaire",
+                "admin": "administrateur"
+              }
+            ]
+          }
+        ]
+      },
+
+      "characters": [
+        {
+          "id": 1,
+          "first_name": "le petit",
+          "last_name": "prince",
+          "description": "je suis le petit prince qui voyage",
+          "email": "lepetit@prince.com",
+          "pseudo": "littlePrince",
+          "gender": "garçon",
+          "birthdate": "09/09/2009",
+          "icon": "string",
+          "is_main":"true",
+          "is_player":"false",
+          "album" : [
+            {
+              "image":""
+            }
+          ],
+          "contents":[
+            {
+              "content_html": "url",
+              "content_css": "url",
+              "content_js": "url",
+              "content_orientation": "0" ///vertical : 0, horizontal 1
+            }
+          ],
+          "circles": [
+            {
+              "name":"ami.e.s",
+              "index" : "0",
+              "characters":[
+                {
+                  "id":"2"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "first_name": "antoine",
+          "last_name": "st exupery",
+          "description": "je suis le pilote",
+          "email": "antoine@stex.com",
+          "pseudo": "piloteMan",
+          "gender": "homme",
+          "birthdate": "01/01/1981",
+          "icon": "string",
+          "is_main":"true",
+          "is_player":"false",
+          "album" : [
+            {
+              "image":"href"
+            }
+          ],
+          "contents":[
+            {
+              "html_file":"link",
+              "css_file":"link",
+              "js_file" : "link"
+            }
+          ],
+          "circles": [
+            {
+              "name":"ami.e.s",
+              "index" : "0",
+              "characters":[
+                {
+                  "id":"1"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "chapters":[
+        {
+          "id" : "c1",
+          "name" :" introduction",
+          "icon" : "string",
+          "description" : "ca c'est le début de l'histoire",
+          "scheduler" : "null", ///temps absolu, si null alors = 0
+          "emitters" :[
+            {
+              "emitter_id":"1"
+            },
+            {
+              "emitter_id":"2"
+            }
+          ],
+          "sequences":[
+            {
+              "id": "sequence1",
+              "name": "J'avais 6 ans...",
+              "icon": "content/media/IMG_7431.JPG",
+              "description": "J'avais 6 ans.",
+              "type": "article",
+              "scheduler": "",
+              "emitters": [
+                {
+                  "emitter_id": "1"
+                }
+              ],
+              "contents": [
+                {
+                  "id": "id1",
+                  "type": "article",
+                  "name": "6 ans",
+                  "description": "j'ai vu une magnifique image",
+                  "emitter_id": "1",
+                  "scheduler": 0, ///temps relatif en secondes
+                  "content_html": "content/lpp_sequence1_content1/index.html",
+                  "content_css": "content/lpp_sequence1_content1/css/style.css",
+                  "content_js": "",
+                  "content_orientation": "0"
+                },
+                {
+                  "id": "id2",
+                  "type": "article",
+                  "name": "mon 1er dessin",
+                  "description": "mon 1er dessin",
+                  "emitter_id": "1",
+                  "scheduler": 30, ///temps relatif en secondes
+                  "content_html": "content/lpp_sequence1_content2/index.html",
+                  "content_css": "content/lpp_sequence1_content2/css/style.css",
+                  "content_js": "",
+                  "content_orientation": "0"
+                },
+                {
+                  "id": "id3",
+                  "type": "article",
+                  "name": "mon chef d'oeuvre",
+                  "description": "mon chef d'oeuvre",
+                  "emitter_id": "1",
+                  "scheduler": 30, ///temps relatif en secondes
+                  "content_html": "content/lpp_sequence1_content3/index.html",
+                  "content_css": "content/lpp_sequence1_content3/css/style.css",
+                  "content_js": "",
+                  "content_orientation": "0"
+                },
+                {
+                  "id": "id4",
+                  "type": "article",
+                  "name": "mon chef d'oeuvre2",
+                  "description": "mon chef d'oeuvre2",
+                  "emitter_id": "1",
+                  "scheduler": 30, ///temps relatif en secondes
+                  "content_html": "content/lpp_sequence1_content4/index.html",
+                  "content_css": "content/lpp_sequence1_content4/css/style.css",
+                  "content_js": "",
+                  "content_orientation": "0"
+                },
+                {
+                  "id": "id5",
+                  "type": "article",
+                  "name": "mon 2eme dessin",
+                  "description": "mon 2eme dessin",
+                  "emitter_id": "1",
+                  "scheduler": 30, ///temps relatif en secondes
+                  "content_html": "content/lpp_sequence1_content5/index.html",
+                  "content_css": "content/lpp_sequence1_content5/css/style.css",
+                  "content_js": "",
+                  "content_orientation": "0"
+                },
+                {
+                  "id": "id6",
+                  "type": "article",
+                  "name": "Les grandes personnes",
+                  "description": "Les grandes personnes",
+                  "emitter_id": "1",
+                  "scheduler": 30, ///temps relatif en secondes
+                  "content_html": "content/lpp_sequence1_content6/index.html",
+                  "content_css": "content/lpp_sequence1_content6/css/style.css",
+                  "content_js": "",
+                  "content_orientation": "0"
+                },
+                {
+                  "id": "id7",
+                  "type": "article",
+                  "name": "Les grandes personnes",
+                  "description": "Les grandes personnes",
+                  "emitter_id": "1",
+                  "scheduler": 30, ///temps relatif en secondes
+                  "content_html": "content/lpp_sequence1_content7/index.html",
+                  "content_css": "content/lpp_sequence1_content7/css/style.css",
+                  "content_js": "",
+                  "content_orientation": "0"
+                },
+                {
+                  "id": "id8",
+                  "type": "article",
+                  "name": "C'est décidé",
+                  "description": "C'est décidé",
+                  "emitter_id": "1",
+                  "scheduler": 30, ///temps relatif en secondes
+                  "content_html": "content/lpp_sequence1_content8/index.html",
+                  "content_css": "content/lpp_sequence1_content8/css/style.css",
+                  "content_js": "",
+                  "content_orientation": "0"
+                },
+                {
+                  "id": "id9",
+                  "type": "article",
+                  "name": "Que vois-tu?",
+                  "description": "Que vois-tu?",
+                  "emitter_id": "1",
+                  "scheduler": 30, ///temps relatif en secondes
+                  "content_html": "content/lpp_sequence1_content9/index.html",
+                  "content_css": "content/lpp_sequence1_content9/css/style.css",
+                  "content_js": "",
+                  "content_orientation": "0",
+                  "options" : [
+                    {
+                      "option_name" :"un chapeau",
+                      "option_index":0
+                    },
+                    {
+                      "option_name" :"un boa",
+                      "option_index":1
+                    }
+                  ]
+                },
+                {
+                  "id": "id10",
+                  "type": "article",
+                  "name": "C'est un chapeau",
+                  "description": "C'est un chapeau",
+                  "emitter_id": "1",
+                  "scheduler": 30, ///temps relatif en secondes
+                  "content_html": "content/lpp_sequence1_content10/index.html",
+                  "content_css": "content/lpp_sequence1_content10/css/style.css",
+                  "content_js": "",
+                  "content_orientation": "0"
+                }
+              ],
+              "courses": [
+                {
+                  "id": "",
+                  "name": "",
+                  "main": "",
+                  "nodes": [
+                    {
+                      "id": ""
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "courses": [
+            {
+              "id": "",
+              "name": "",
+              "main": "",
+              "nodes": [
+                {
+                  "id": ""
+                }
+              ]
+            }
+          ]
+
+        }
+      ],
+      "courses": [
+        {
+          "id": "",
+          "name": "",
+          "main": "",
+          "nodes": [
+            {
+              "id": ""
+            }
+          ]
+        }
+      ]
+      ///
+    }
+  ]
+  ///
+}
