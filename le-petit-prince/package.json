@@ -153,6 +153,16 @@
               "emitter_id":"2"
             }
           ],
+          "inputs": [
+            {
+              "name":"",
+              "source":""}
+          ],
+          "outputs": [
+            {
+              "name":"",
+              "destination":""}
+          ],
           "sequences":[
             {
               "id": "sequence1",
@@ -166,6 +176,16 @@
                   "emitter_id": "1"
                 }
               ],
+              "inputs": [
+                {
+                  "name":"",
+                  "source":""}
+              ],
+              "outputs": [
+                {
+                  "name":"",
+                  "destination":""}
+              ],
               "contents": [
                 {
                   "id": "id1",
@@ -177,7 +197,19 @@
                   "content_html": "content/lpp_sequence1_content1/index.html",
                   "content_css": "content/lpp_sequence1_content1/css/style.css",
                   "content_js": "",
-                  "content_orientation": "0"
+                  "content_orientation": "0",
+                  "inputs": [
+                    {
+                      "name":"",
+                      "source":""}
+                  ],
+                  "options": [
+                    {
+                      "name":"",
+                      "destination":"",
+                      "index":""
+                    }
+                  ]
                 },
                 {
                   "id": "id2",
@@ -189,7 +221,19 @@
                   "content_html": "content/lpp_sequence1_content2/index.html",
                   "content_css": "content/lpp_sequence1_content2/css/style.css",
                   "content_js": "",
-                  "content_orientation": "0"
+                  "content_orientation": "0",
+                  "inputs": [
+                    {
+                      "name":"",
+                      "source":""}
+                  ],
+                  "options": [
+                    {
+                      "name":"",
+                      "destination":"",
+                      "index":""
+                    }
+                  ]
                 },
                 {
                   "id": "id3",
@@ -201,7 +245,19 @@
                   "content_html": "content/lpp_sequence1_content3/index.html",
                   "content_css": "content/lpp_sequence1_content3/css/style.css",
                   "content_js": "",
-                  "content_orientation": "0"
+                  "content_orientation": "0",
+                  "inputs": [
+                    {
+                      "name":"",
+                      "source":""}
+                  ],
+                  "options": [
+                    {
+                      "name":"",
+                      "destination":"",
+                      "index":""
+                    }
+                  ]
                 },
                 {
                   "id": "id4",
@@ -213,7 +269,19 @@
                   "content_html": "content/lpp_sequence1_content4/index.html",
                   "content_css": "content/lpp_sequence1_content4/css/style.css",
                   "content_js": "",
-                  "content_orientation": "0"
+                  "content_orientation": "0",
+                  "inputs": [
+                    {
+                      "name":"",
+                      "source":""}
+                  ],
+                  "options": [
+                    {
+                      "name":"",
+                      "destination":"",
+                      "index":""
+                    }
+                  ]
                 },
                 {
                   "id": "id5",
@@ -225,7 +293,19 @@
                   "content_html": "content/lpp_sequence1_content5/index.html",
                   "content_css": "content/lpp_sequence1_content5/css/style.css",
                   "content_js": "",
-                  "content_orientation": "0"
+                  "content_orientation": "0",
+                  "inputs": [
+                    {
+                      "name":"",
+                      "source":""}
+                  ],
+                  "options": [
+                    {
+                      "name":"",
+                      "destination":"",
+                      "index":""
+                    }
+                  ]
                 },
                 {
                   "id": "id6",
@@ -237,7 +317,19 @@
                   "content_html": "content/lpp_sequence1_content6/index.html",
                   "content_css": "content/lpp_sequence1_content6/css/style.css",
                   "content_js": "",
-                  "content_orientation": "0"
+                  "content_orientation": "0",
+                  "inputs": [
+                    {
+                      "name":"",
+                      "source":""}
+                  ],
+                  "options": [
+                    {
+                      "name":"",
+                      "destination":"",
+                      "index":""
+                    }
+                  ]
                 },
                 {
                   "id": "id7",
@@ -249,7 +341,19 @@
                   "content_html": "content/lpp_sequence1_content7/index.html",
                   "content_css": "content/lpp_sequence1_content7/css/style.css",
                   "content_js": "",
-                  "content_orientation": "0"
+                  "content_orientation": "0",
+                  "inputs": [
+                    {
+                      "name":"",
+                      "source":""}
+                  ],
+                  "options": [
+                    {
+                      "name":"",
+                      "destination":"",
+                      "index":""
+                    }
+                  ]
                 },
                 {
                   "id": "id8",
@@ -261,7 +365,19 @@
                   "content_html": "content/lpp_sequence1_content8/index.html",
                   "content_css": "content/lpp_sequence1_content8/css/style.css",
                   "content_js": "",
-                  "content_orientation": "0"
+                  "content_orientation": "0",
+                  "inputs": [
+                    {
+                      "name":"",
+                      "source":""}
+                  ],
+                  "options": [
+                    {
+                      "name":"",
+                      "destination":"",
+                      "index":""
+                    }
+                  ]
                 },
                 {
                   "id": "id9",
@@ -277,10 +393,12 @@
                   "options" : [
                     {
                       "option_name" :"chapeau",
+                      "destination":"id10",
                       "option_index":0
                     },
                     {
                       "option_name" :"boa",
+                      "destination":"END",
                       "option_index":1
                     }
                   ]
